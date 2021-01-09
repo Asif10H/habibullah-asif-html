@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Antic Slab", serif;
 }
 /*navegation bar*/
 .navbar-section {
   height: 100px;
   background-color: #273238;
-line-height: 25px;
-  
+  line-height: 25px;
 }
 .navbar ul {
   margin: 30px;
@@ -18,19 +18,57 @@ line-height: 25px;
   padding: 20px;
   margin-right: 80px;
   float: left;
-
 }
 .navbar a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  color: #D8E3EA;
-position: absolute;/**/
+  color: #d8e3ea;
+  position: absolute; /**/
 }
 .navbar a:hover {
   color: rgb(226, 47, 47);
   font-size: 30px;
 }
+/*name color section*/
+.name-container1 {
+  color: #363958;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-size: 60px;
+}
+.name-container2 {
+  color: #363958;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 60px;
+}
+.name-color {
+  color: #f56161;
+}
+.intro-sec {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.about-hed {
+  text-align: center;
+  color: #f56161;
+  font-size: 50px;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding: 2%;
+  height: 650px;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+}
+/*about section*/
+
 /*experiences section*/
 .experiences-section {
   height: 500px;
